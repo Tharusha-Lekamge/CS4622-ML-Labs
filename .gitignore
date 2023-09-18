@@ -153,5 +153,5 @@ cython_debug/
 
 Lab01-Feature-Engineering/data
 
-.zip
-.csv
+*.zip
+*.csv
