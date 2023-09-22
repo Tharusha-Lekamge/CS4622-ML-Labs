@@ -1,0 +1,12 @@
+name: layer_09
+source_url: #
+paths:
+  train: train_09.csv
+  test: test_09.csv
+  valid: valid_09.csv
+  config: layer_09.yaml
+labels:
+  - Speaker
+  - Age
+  - Gender
+  - Accent

@@ -13,7 +13,7 @@ from typing import Tuple
 
 
 class BaseDataset:
-    def __init__(self, config_path, root=None) -> None:
+    def __init__(self, config_path=None, root=None) -> None:
         with open(config_path) as handler:
             config = yaml.load(handler, Loader=yaml.FullLoader)
         if root is None:
